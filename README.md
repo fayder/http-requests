@@ -9,4 +9,4 @@ python httpServer.py [port]
 ```
 
 [requests module]:http://docs.python-requests.org/en/latest/
-[web.py module]:http://webpy.org/
+[web.py]:http://webpy.org/
