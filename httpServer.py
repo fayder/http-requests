@@ -38,6 +38,8 @@ class HttpHandler:
     def POST(self):
         web.header('Content-Type', 'application/json')
         web.ctx.status = '201 Created'
+        data = web.data()
+        print(data)
         return getResponse(web.ctx.status, 'Successful POST request')
 
     def PUT(self):
